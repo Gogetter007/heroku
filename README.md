@@ -1,6 +1,11 @@
 # heroku
 Comprises of Herokuapp webpage automation
 
+Task Completion status:
+### Build a web ui automation framework using cypress/protractor/any JavaScript UI tool -
+a. Use the provided url to test any 2 of the points mentioned in the website. → (Mandatory) - (COMPLETED using CYPRESS)
+b. Provide report of the tests after every run. → (Not Mandatory but If Done Extra 5 Points for this) - (COMPLETED)
+
 ## UI Automation Task
 
 In this File I'm going to explain <b>How to configure </b> and <b>Run this Framework</b>
