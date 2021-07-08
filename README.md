@@ -63,7 +63,8 @@ Setup your machine.
 ### Project Folder- Root Directory
 	
 	### /Users/arjun.m/Desktop/heroku/cypress/integration/Practise 	stores the root folder
-
+	###input.js: Automates the INPUT element
+	###dropDown.js: Automates the DROPDOWN element
 	### package.json: holds various metadata relevant to the project.
 	### cypress.json: configuration file
 		
