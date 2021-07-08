@@ -7,7 +7,7 @@ In this File I'm going to explain <b>How to configure </b> and <b>Run this Frame
 
 The tech stack used for developing this framework are:
 1. **JAVASCRIPT** as the programming language for writing test code
-2. **Cypress** for developing the framework
+2. **Cypress** as the UI/frontend automation tool
 3. **Visual studio Code** as the preferred IDE for writing javaScript code.
 
 #### Getting Started
