@@ -1,6 +1,8 @@
 # heroku
 Comprises of Herokuapp webpage automation
 
+Please find the code snippets at Cypress->Integration/Practise->Dropdown.js & Inputs.js
+
 Task Completion status:
 ### Build a web ui automation framework using cypress/protractor/any JavaScript UI tool -
 a. Use the provided url to test any 2 of the points mentioned in the website. → (Mandatory) - (COMPLETED using CYPRESS)
