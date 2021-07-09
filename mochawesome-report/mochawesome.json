@@ -1,0 +1,182 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-07-08T04:44:04.766Z",
+    "end": "2021-07-08T04:44:24.528Z",
+    "duration": 19762,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "fc69354b-ade5-441b-b56d-fc41b1f1e422",
+      "title": "",
+      "fullFile": "cypress/integration/Practise/dropDown.js",
+      "file": "cypress/integration/Practise/dropDown.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "98946373-8ca5-435d-842b-971f3cfa1592",
+          "title": "herokuValidation",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "6a87283e-b5b7-420c-bb92-1091a1cb7e5f",
+              "title": "Herokuapp home page",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "contains header",
+                  "fullTitle": "herokuValidation Herokuapp home page contains header",
+                  "timedOut": null,
+                  "duration": 4274,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.contains('Welcome to the-internet');",
+                  "err": {},
+                  "uuid": "bf9356cc-7919-419e-a88c-b5e6e8e978ee",
+                  "parentUUID": "6a87283e-b5b7-420c-bb92-1091a1cb7e5f",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "contains sub-header",
+                  "fullTitle": "herokuValidation Herokuapp home page contains sub-header",
+                  "timedOut": null,
+                  "duration": 2386,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.contains('Available Examples');",
+                  "err": {},
+                  "uuid": "21d64094-ecec-4655-babf-eb7288d2eb4c",
+                  "parentUUID": "6a87283e-b5b7-420c-bb92-1091a1cb7e5f",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [
+                {
+                  "uuid": "aa8c20b9-3b64-4e64-83e2-2a2375c854cd",
+                  "title": "Navigate to Dropdown page",
+                  "fullFile": "",
+                  "file": "",
+                  "beforeHooks": [],
+                  "afterHooks": [],
+                  "tests": [
+                    {
+                      "title": "Select Option from dropdown",
+                      "fullTitle": "herokuValidation Herokuapp home page Navigate to Dropdown page Select Option from dropdown",
+                      "timedOut": null,
+                      "duration": 11017,
+                      "state": "passed",
+                      "speed": "slow",
+                      "pass": true,
+                      "fail": false,
+                      "pending": false,
+                      "context": null,
+                      "code": "cy.get('#dropdown').select('Option 1');\ncy.wait(4000);",
+                      "err": {},
+                      "uuid": "0ce62227-b462-446b-8cfa-ea53bbb66cd5",
+                      "parentUUID": "aa8c20b9-3b64-4e64-83e2-2a2375c854cd",
+                      "isHook": false,
+                      "skipped": false
+                    }
+                  ],
+                  "suites": [],
+                  "passes": [
+                    "0ce62227-b462-446b-8cfa-ea53bbb66cd5"
+                  ],
+                  "failures": [],
+                  "pending": [],
+                  "skipped": [],
+                  "duration": 11017,
+                  "root": false,
+                  "rootEmpty": false,
+                  "_timeout": 2000
+                }
+              ],
+              "passes": [
+                "bf9356cc-7919-419e-a88c-b5e6e8e978ee",
+                "21d64094-ecec-4655-babf-eb7288d2eb4c"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 6660,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
